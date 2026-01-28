@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Catálogo</title>
+</head>
+<body>
+
+<h1>Panel de Administración</h1>
+
+<!-- Login -->
+<div id="login">
+  <h2>Iniciar sesión</h2>
+  <input type="email" id="email" placeholder="Email">
+  <input type="password" id="password" placeholder="Contraseña">
+  <button id="btnLogin">Entrar</button>
+  <p id="loginError" style="color:red;"></p>
+</div>
+
+<!-- Panel -->
+<div id="panel" style="display:none;">
+  <h2>Agregar producto</h2>
+
+  <input type="text" id="nombre" placeholder="Nombre">
+  <input type="text" id="marca" placeholder="Marca">
+  <input type="number" id="precio" placeholder="Precio">
+  <input type="text" id="imagen" placeholder="URL imagen">
+  <button id="btnAgregar">Agregar</button>
+
+  <h2>Productos</h2>
+  <div id="listaProductos"></div>
+
+  <button id="btnLogout">Cerrar sesión</button>
+</div>
+
+<script type="module" src="js/admin.js"></script>
+
+</body>
+</html>
 
