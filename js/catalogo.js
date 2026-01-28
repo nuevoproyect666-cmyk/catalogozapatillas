@@ -2,7 +2,7 @@ import { db } from "./firebase.js";
 import {
   collection,
   getDocs
-} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+} from "https://www.gstatic.com/firebasejs/12.8.0/firebase-firestore.js";
 
 const contenedor = document.getElementById("productos");
 
